@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #212529;
 }
 
 p {
@@ -14,11 +15,15 @@ p {
 }
 
 a {
-    color: #fed136
+    color: #e0ac00
 }
 
 a.active, a:active, a:focus, a:hover {
-    color: #fec503
+    color: #ffc500
+}
+
+.bg-light {
+    background-color: rgb(240, 240, 240)!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,12 +58,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-    background: #fed136;
+    background: #ffc500;
     text-shadow: none
 }
 
 ::selection {
-    background: #fed136;
+    background: #ffc500;
     text-shadow: none
 }
 
@@ -71,7 +76,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #fed136
+    -webkit-tap-highlight-color: #ffc500
 }
 
 #mainNav {
@@ -85,7 +90,7 @@ body {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #fed136;
+    background-color: #ffc500;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase
 }
@@ -96,7 +101,7 @@ body {
 }
 
 #mainNav .navbar-brand:hover {
-    color: #fec503
+    color: #ffc500
 }
 
 #mainNav .nav-text {
@@ -120,7 +125,7 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136
+    color: #ffc500
 }
 
 @media (min-width:992px) {
@@ -145,7 +150,8 @@ body {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #222
+        /* background-color: #222 */
+        background-color: #212529;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
@@ -271,7 +277,7 @@ header.masthead .intro-text .intro-heading {
     margin-top: -12px;
     text-align: center;
     /* color: #fff */
-    color: rgba(254, 209, 54, 1)
+    color: #ffc500
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -287,7 +293,7 @@ header.masthead .intro-text .intro-heading {
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: #fff
+    /* background-color: #fff; */
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -303,6 +309,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio * {
+    background-color: transparent;
     z-index: 2
 }
 
@@ -326,7 +333,8 @@ header.masthead .intro-text .intro-heading {
     border-radius: 0;
     background-clip: border-box;
     -webkit-box-shadow: none;
-    box-shadow: none
+    box-shadow: none;
+    background-color: rgb(240, 240, 240);
 }
 
 .portfolio-modal .modal-content h2 {
@@ -398,6 +406,10 @@ header.masthead .intro-text .intro-heading {
     opacity: 0
 }
 
+.portfolio-modal a {
+    font-weight: bold;
+}
+
 .timeline {
     position: relative;
     padding: 0;
@@ -463,7 +475,7 @@ header.masthead .intro-text .intro-heading {
     color: #fff;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    background-color: #fed136
+    background-color: #ffc500
 }
 
 .timeline>li .timeline-image h4 {
@@ -632,7 +644,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #ffc500;
     box-shadow: none
 }
 
@@ -678,6 +690,7 @@ footer span.copyright {
     line-height: 40px;
     text-transform: none;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
     /*text-transform: uppercase*/
 }
 
@@ -710,44 +723,44 @@ ul.social-buttons li a, ul.social-buttons li a:focus {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:hover {
-    background-color: #fed136
+    background-color: #ffc500
 }
 
 .text-primary {
-    color: #fed136!important
+    color: #e0ac00!important
 }
 
 .btn-primary {
     font-weight: 700;
     color: #fff;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #e0ac00;
+    background-color: #e0ac00;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase
 }
 
 .btn-primary.focus, .btn-primary:focus {
     color: #fff;
-    border-color: #b48b01;
-    background-color: #fec503
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-primary:hover {
     color: #fff;
-    border-color: #f6bf01;
-    background-color: #fec503
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
     color: #fff;
-    border-color: #f6bf01;
-    background-color: #fec503
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
     color: #fff;
-    border-color: #b48b01;
-    background-color: #dcab01
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
@@ -756,11 +769,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:hover {
 
 .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
     border-color: #fed136;
-    background-color: #fed136
+    background-color: #ffc500
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #ffc500;
     background-color: #fff
 }
 
@@ -770,34 +783,34 @@ ul.social-buttons li a:active, ul.social-buttons li a:hover {
     padding: 20px 40px;
     border-radius: 3px;
     color: #fff;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #e0ac00;
+    background-color: #e0ac00;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase
 }
 
 .btn-xl.focus, .btn-xl:focus {
     color: #fff;
-    border-color: #b48b01;
-    background-color: #fec503
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-xl:hover {
     color: #fff;
-    border-color: #f6bf01;
-    background-color: #fec503
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-xl.active, .btn-xl:active, .open>.btn-xl.dropdown-toggle {
     color: #fff;
-    border-color: #f6bf01;
-    background-color: #fec503
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover, .open>.btn-xl.dropdown-toggle.focus, .open>.btn-xl.dropdown-toggle:focus, .open>.btn-xl.dropdown-toggle:hover {
     color: #fff;
-    border-color: #b48b01;
-    background-color: #dcab01
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-xl.active, .btn-xl:active, .open>.btn-xl.dropdown-toggle {
@@ -805,11 +818,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:hover {
 }
 
 .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl.focus, fieldset[disabled] .btn-xl:focus, fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136
+    border-color: #ffc500;
+    background-color: #ffc500
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #ffc500;
     background-color: #fff
 }
