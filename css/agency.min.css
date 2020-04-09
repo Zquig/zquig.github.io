@@ -240,6 +240,17 @@ header.masthead .intro-text .intro-heading {
     transform: translateY(-50%)
 }
 
+.div-img-sm {
+    position: absolute;
+    max-width: 50%;
+    max-height: 50%;
+    width: 100%;
+    display: inline-block;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px
