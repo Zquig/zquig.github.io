@@ -344,6 +344,19 @@ header.masthead .intro-text .intro-heading {
     background-color: #f0f0f0
 }
 
+.portfolio-modal .modal-content .description {
+    text-align: justify;
+}
+
+.portfolio-modal .modal-content .description ul {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-modal .modal-content .description p {
+    line-height: 1.5;
+}
+
 .portfolio-modal .modal-content h2 {
     font-size: 3em;
     margin-bottom: 15px
