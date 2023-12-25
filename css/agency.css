@@ -333,6 +333,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio * {
+    justify-content: center;
+    align-items: center;
+
     background-color: transparent;
     z-index: 2
 }
